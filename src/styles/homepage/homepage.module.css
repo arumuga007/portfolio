@@ -1,7 +1,7 @@
 .container {
     width: calc(100vw - 16rem);
     box-sizing: border-box;
-    min-height: calc(90vh - 80px);
+    min-height: calc(100vh - 80px);
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
