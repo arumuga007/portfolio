@@ -1,0 +1,13 @@
+.container {
+    position: sticky;
+    top: 0;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100vw;
+    padding: 0px max(8vh, 15px);
+    justify-content: space-between;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(0,0,0,.09);
+}
