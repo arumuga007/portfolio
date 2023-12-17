@@ -1,5 +1,5 @@
 .container {
-    width: calc(100vw - 8rem);
+    width: calc(100vw - 16rem);
     box-sizing: border-box;
     min-height: calc(90vh - 80px);
     box-sizing: border-box;
@@ -43,3 +43,28 @@ a {
 a:hover {
     color: #147efb;
 }
+.profile-container {
+    -webkit-animation: morph 8s ease-in-out infinite;
+    animation: morph 8s ease-in-out infinite;
+    background-image: url('./profileImage.jpg');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid #2d2e32;
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    position: relative;
+    height: 25rem;
+    transition: all 1s ease-in-out;
+    width: 25rem;
+  }
+  @keyframes morph {
+    0% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+      }
+      50% {
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+      }
+      100% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+      }
+  }
