@@ -1,0 +1,17 @@
+.container {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+}
+.header-container {
+    display: flex;
+    flex-direction: column;
+}
+.title {
+    font-size: 2rem;
+    font-weight: 900;
+}
+.subTitle {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
