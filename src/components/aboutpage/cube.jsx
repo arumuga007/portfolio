@@ -1,12 +1,12 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import styles from './../../styles/aboutpage/aboutpage.module.css';
-import { faAngular, faCss3, faGitAlt, faHtml5, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons';
+import { faAngular, faCss3, faGitAlt, faGithub, faGithubAlt, faHtml5, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons';
 const Cube = () => {
     return(
         <div className={styles['cube-container']}>
             <div className={styles['cube']}>
                 <div className={styles['face1']}>
-                    <FontAwesomeIcon icon={faAngular} color='#DD0031' />
+                    <FontAwesomeIcon icon={faGithub} color='#DD0031' />
                 </div>
                 <div className={styles['face2']}>
                     <FontAwesomeIcon icon={faHtml5} color='#F06529' />
