@@ -6,7 +6,7 @@ const ProjectSection = () => {
     const projectItems = [
         {'image': 'shareNest.jpg', 'type': 1, 'title': 'ShareNest ', 'period': ' (Dec 2023 - present)', 'technologyUsed': [
             'react', 'scss', 'express js'], 'sourceCode': 'https://github.com/arumuga007/ShareNest', 'liveDemo': false, 'description': 'ShareNest is online platform where user can either buy or sell or take any item for rent from their local community people. User can also request any item which will be further be shared as  a notification to all other users in user specified range.'},
-        {'image': 'whizocart.png', 'type': 2, 'title': 'Whizocart', 'period': 'Aug 2023 - Sep 2023', 'technologyUsed': [
+        {'image': 'whizocart.png', 'type': 2, 'title': 'Whizocart ', 'period': '(Aug 2023 - Sep 2023)', 'technologyUsed': [
             'JS', 'Laravel'], 'sourceCode': false, 'liveDemo': 'https://whizocart.com', 'description': 'ShareNest is online platform where user can either buy or sell or take any item for rent from their local community people. User can also request any item which will be further be shared as  a notification to all other users in user specified range.'}
     ]
     return(

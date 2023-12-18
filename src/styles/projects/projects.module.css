@@ -85,6 +85,7 @@
 }
 .image-container img:hover {
     transform: translateY(-95%);
+    cursor: pointer;
 }
 
 .details-container {
@@ -111,11 +112,43 @@
 .project-description-container {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
 .project-description {
     font-size: 1.15rem;
     font-weight: 500;
     color: #767676;
     text-align: justify;
+}
+.project-technologyUsed-container {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.technologyUsed-item {
+    padding: 10px 13px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    box-shadow: 0px 0px 6px rgba(0,0,0,.2);
+}
+.source-deploy-container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-self: flex-start;
+}
+.source-code-container {
+    position: relative;
+    font-size: 1.25rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all linear .2s;
+}
+.source-code-container svg{
+    position: absolute;
+    margin-left: 5px;
+    bottom: 2px;
+}
+.source-code-container:hover {
+    color: #147efb;
 }
