@@ -3,6 +3,7 @@ import styles from './../styles/bodycomponents.module.css';
 import Aboutpage from "./aboutpage/aboutpage";
 import Projects from "./projects/project";
 import Techstack from "./techstack/techstack";
+import Experience from "./experience/experience";
 const BodyComponents = () => {
     return(
         <div className={styles['container']}>
@@ -10,6 +11,7 @@ const BodyComponents = () => {
             <Techstack />
             <Aboutpage />
             <Projects />
+            <Experience />
         </div>
     )
 }
