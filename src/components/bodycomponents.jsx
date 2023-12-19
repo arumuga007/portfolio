@@ -5,6 +5,7 @@ import Projects from "./projects/project";
 import Techstack from "./techstack/techstack";
 import Experience from "./experience/experience";
 import Contact from "./contact/contact";
+import Copyright from "./copyright/copyright";
 const BodyComponents = () => {
     return(
         <div className={styles['container']}>
