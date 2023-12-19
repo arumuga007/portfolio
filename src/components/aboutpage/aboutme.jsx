@@ -1,7 +1,10 @@
+import { useContext } from 'react';
 import styles from './../../styles/aboutpage/aboutpage.module.css';
+import { MenuItemsContext } from '../../App';
 const Aboutme = () => {
+    const {about} = useContext(MenuItemsContext);
     return(
-        <div className={styles['aboutme-container']}>
+        <div className={styles['aboutme-container']} ref={about}>
             <div className={styles.header}>About me</div>
             <div className={styles['description-container']}>
                 <span>As a Front-End Developer, I possess an impressive arsenal of skills in HTML, CSS, JavaScript, React, Webpack and SCSS. I excel in designing and maintaining responsive websites that offer a smooth user experience. </span>
