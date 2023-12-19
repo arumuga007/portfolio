@@ -81,10 +81,10 @@
 .image-container img {
     height: auto;
     width: 100%;
-    transition: transform linear 10s;
+    min-height: 100%;
 }
 .image-container img:hover {
-    transform: translateY(-95%);
+    transform: translateY(calc(360px - 100%));
     cursor: pointer;
 }
 
@@ -134,7 +134,7 @@
 .source-deploy-container {
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 50px;
     align-self: flex-start;
 }
 .source-code-container {
@@ -143,6 +143,7 @@
     font-weight: 500;
     cursor: pointer;
     transition: all linear .2s;
+    text-decoration: none;
 }
 .source-code-container svg{
     position: absolute;
