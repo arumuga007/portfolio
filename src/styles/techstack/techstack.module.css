@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: min(7vw, 150px);
+    margin: 40px 0px;
+    align-items: center;
+}
+.techstack-text {
+    font-size: 1.3rem;
+    font-weight: 500;
+    opacity: .8;
+    padding: 0px 30px 0px 0px;
+    border-right:3px solid rgb(75, 75, 75);
+}
+.icons-container {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.icons-container img{
+    cursor: pointer;
+    transition: all linear .3s;
+}
+.icons-container div:hover img{
+    transform: translateY(-1rem);
+}
