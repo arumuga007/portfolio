@@ -4,6 +4,7 @@ import Aboutpage from "./aboutpage/aboutpage";
 import Projects from "./projects/project";
 import Techstack from "./techstack/techstack";
 import Experience from "./experience/experience";
+import Contact from "./contact/contact";
 const BodyComponents = () => {
     return(
         <div className={styles['container']}>
@@ -12,6 +13,7 @@ const BodyComponents = () => {
             <Aboutpage />
             <Projects />
             <Experience />
+            <Contact />
         </div>
     )
 }
