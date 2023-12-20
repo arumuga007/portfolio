@@ -1,5 +1,5 @@
 .container {
-    width: (100vw - 16em);
+    width: 84vw;
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
@@ -85,3 +85,37 @@
         transform: rotateX(90deg);
     }
 }
+ @media  screen and (max-width: 1000px) {
+    .container {
+        width: calc(100vw - 80px);
+        gap: 0px;
+        justify-content: space-between;
+    }
+    .aboutme-container {
+        width: 50vw;
+    }
+    .cube-container {
+        width: 250px;
+    }
+ }
+ @media screen and (max-width: 400px) {
+    .container {
+        width: calc(100vw - 40px);
+    }
+ }
+ @media screen and (max-width: 760px) {
+    .container {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .aboutme-container {
+        width: 100%;
+    }
+    .header {
+        font-size: 1.5rem;
+    }
+    .cube-container {
+        height: 200px;
+        align-self: center;
+    }
+ }
