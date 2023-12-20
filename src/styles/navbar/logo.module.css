@@ -1,4 +1,11 @@
 .container {
     font-size: 1.5rem;
     font-weight: 600;
+    display: flex;
+}
+@media screen and (max-width: 750px) {
+    .container {
+        gap: 20px;
+    }
+
 }

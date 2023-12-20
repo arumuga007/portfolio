@@ -6,7 +6,7 @@
     flex-direction: row;
     align-items: center;
     width: 100vw;
-    padding: 0px max(8vh, 15px);
+    padding: 0px 8vw;
     justify-content: space-between;
     box-sizing: border-box;
     box-shadow: 0 0 10px rgba(0,0,0,.09);

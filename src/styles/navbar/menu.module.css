@@ -6,8 +6,27 @@
     font-weight: 500;
     opacity: .9;
     transition: all linear .2s;
+    position: relative;
 }
 .container .items:hover {
     cursor: pointer;
     color: #147efb;
+}
+@media screen and (max-width: 750px) {
+    .container {
+        position: absolute;
+        flex-direction: column;
+        top: 75px;
+        background-color: white;
+        transition: all linear .2s;
+        padding: 0px 40px;
+        height: 0px;
+        width: 100%;
+        left: 0;
+        overflow: hidden;
+    }
+    .showMenu {
+        padding: 10px 40px;
+        height: 220px;
+    }
 }
