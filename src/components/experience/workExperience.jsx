@@ -14,7 +14,7 @@ const WorkExperience = (props) => {
                         <div className={styles['organisation-container']}>
                             {props.work.organisation}
                         </div>
-                        <div>.</div>
+                        <div className={styles.dot}>.</div>
                         <div className={styles['jobType-container']}>
                             {props.work.jobType}
                         </div>

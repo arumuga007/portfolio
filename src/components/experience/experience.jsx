@@ -7,7 +7,7 @@ const Experience = () => {
         'organisation': 'Whizoid Studio',
         'jobType': 'Internship',
         'duration': 'Aug 2023 - Oct 2023',
-        'location': 'Indore, Madhya Pradesh, India',
+        'location': 'Indore, Madhya Pradesh',
         'locationType': 'Remote',
         'description': [
                         'Demonstrated proficiency in web development technologies and best practices, contributing to the successful delivery of internal and client projects.',
