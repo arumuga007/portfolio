@@ -32,6 +32,7 @@
     color: #555;
     text-align: justify;
     line-height: 1.7;
+    align-self: center;
 }
 .icons-container {
     display: flex;
@@ -75,7 +76,7 @@ a {
 
 @media screen and (max-width: 1000px) {
     .container {
-        width: 94vw;
+        width: calc(100vw - 80px);
     }
 }
 
@@ -100,7 +101,7 @@ a {
 @media screen and (max-width: 765px) {
     .container {
         flex-direction: column-reverse;
-        width: 94vw;
+        width: calc(100vw - 80px);
         align-items: center;
         min-height: 1px;
     }
@@ -110,9 +111,25 @@ a {
     }
     .content-header {
         font-size: 2.3rem;
+        text-align: center;
+        line-height: normal;
+    }
+    .content-header img {
+        bottom: 10px;
     }
     .profile-container {
         min-height: 320px;
         min-width: 320px;
     }
+}
+
+@media screen and (max-width: 400px) {
+ .content-header {
+    font-size: 2rem;
+ }   
+}
+@media screen and (max-width: 400px) {
+ .container {
+    width: calc(100vw - 40px);
+ }   
 }
