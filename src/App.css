@@ -5,6 +5,7 @@
 body {
   font-family: 'poppins';
   overflow-x: hidden;
+  position: relative;
 }
 @media screen and (max-width: 750px) {
   #nav-icon3 {
