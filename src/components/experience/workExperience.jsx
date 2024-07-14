@@ -3,7 +3,7 @@ const WorkExperience = (props) => {
     return(
         <div className={styles['single-experience']}>
             <div className={styles['image-container']}>
-                <img src={props.work.image} />
+                <img src={process.env.PUBLIC_URL + `/images/experience/${props.work.image}`} />
             </div>
             <div className={styles['details-container']}>
                 <div className={styles['role-container']}>

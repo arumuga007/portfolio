@@ -4,8 +4,8 @@ import SingleProject from './singleProject';
 const ProjectSection = () => {
     const[typeOfProject, setTypeOfProject] = useState(0);
     const projectItems = [
-        {'image': 'shareNest.jpg', 'type': 1, 'title': 'Share Nest ', 'period': ' (Dec 2023 - present)', 'transitionTime': '2s' ,'technologyUsed': [
-            'react', 'scss', 'express js'], 'sourceCode': 'https://github.com/arumuga007/ShareNest', 'liveDemo': false, 'description': 'Share Nest is online platform where user can either buy or sell or take any item for rent from their local community people. User can also request any item which will be further be shared as  a notification to all other users in user specified range.'},
+        {'image': 'shareNest.jpg', 'type': 1, 'title': 'Share Nest ', 'period': ' (Dec 2023 - present)', 'transitionTime': '4.5s' ,'technologyUsed': [
+            'react', 'scss', 'express js'], 'sourceCode': 'https://github.com/arumuga007/ShareNest', 'liveDemo': false, 'description': 'Share Nest is online platform where user can either buy or sell or take any item for rent from their local community people. It harnesses Twilio for SMS notifications, Stripe API for payment, and Nodemailer for email and Aadhaar verification for trust.'},
         {'image': 'whizocart-compressed.jpg', 'type': 2, 'title': 'Whizocart ', 'period': '(Aug 2023 - Sep 2023)', 'transitionTime': '10s' , 'technologyUsed': [
             'JavaScript', 'Laravel'], 'sourceCode': false, 'liveDemo': 'https://whizocart.com', 'description': 'Whizocart will help to elevate your E-commerce Business to New Heights with Whizocart AI-powered solution. Experience a personalized AI solution that redefines your e-commerce journey.'},
         {'image': 'filmFusion-compressed.jpg', 'type': 1, 'title': 'Film Fusion ', 'period': '(Oct 2023 - Nov 2023)', 'transitionTime': '2.5s' , 'technologyUsed': [

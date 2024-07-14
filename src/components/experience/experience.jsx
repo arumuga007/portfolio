@@ -2,7 +2,7 @@ import styles from './../../styles/experience/experience.module.css';
 import WorkExperience from './workExperience';
 const Experience = () => {
     const experienceDetails = [
-        {'image': 'https://media.licdn.com/dms/image/C560BAQHhiTCbV0aqHw/company-logo_100_100/0/1662731453577/whizoidstudio_logo?e=1710979200&v=beta&t=UaCSKuQlr_Dc67GOw4mqv-EXNe9vBrp1i9GtSQGMvl0',
+        {'image': 'logo.svg',
         'role': 'Web Developer',
         'organisation': 'Whizoid Studio',
         'jobType': 'Internship',
