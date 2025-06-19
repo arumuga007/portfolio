@@ -6,7 +6,7 @@ const Content = () => {
                 <span>Front-End React</span>
                 <span> Developer </span>
                 <span> </span>
-                <img src='https://www.stefantopalovic.com/static/media/waving.1bae5fcfb51082b5c2b4.png' />
+                {/* <img src='https://www.stefantopalovic.com/static/media/waving.1bae5fcfb51082b5c2b4.png' /> */}
             </div>
             <div className={styles['content-description']}>
                 Hi, I'm Arumugaperumal N. A passionate Front-end React Developer based in Chennai, Tamil Nadu.  📍

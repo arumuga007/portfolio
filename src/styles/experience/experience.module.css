@@ -12,6 +12,9 @@
 }
 .work-experience-container {
     margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 .single-experience {
     display: flex;
