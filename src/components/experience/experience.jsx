@@ -10,9 +10,8 @@ const Experience = () => {
             'location': 'Madurai, Tamil Nadu',
             'locationType': 'On-site',
             'description': [
-                            'Demonstrated proficiency in web development technologies and best practices, contributing to the successful delivery of internal and client projects.',
-                            'WhizoCart (Internal Project): Enhanced user engagement and boosted performance by 35% through UI optimization and asynchronous programming, resulting in a more dynamic and responsive shopping experience.',
-                            'TravelNeuro (Client Project): Developed a tour booking platform using WordPress and Laravel, enabling users to book tours for various tourist destinations.'
+                            'Working on the banking module in Zoho Finance, focusing on bank statement import, transaction matching, categorization, and reconciliation.',
+                            'Building and enhancing integration with Tarabut’s Open Banking APIs to securely fetch and process banking data.'
                             ]
         },
         {'image': 'whizoid.svg',

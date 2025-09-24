@@ -15,13 +15,100 @@
     gap: 20px;
     width: 50%;
     min-width: 470px;
-}
-.content-header {
-    font-size: 3.5rem;
-    line-height: 1;
+  }
+  
+  .content-header {
+    position: relative;
+    height: 5rem;
+    padding-top: 1.4rem; /* Gives room for label */
+  }
+  
+  
+  .label-animation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 1rem;
+    font-weight: 500;
+    height: 1.2rem;
+    width: 100%;
+    overflow: hidden;
+    pointer-events: none;
+  }
+  
+  .label-front, .label-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+  
+  
+  /* Main title container */
+  .title-animation {
+    font-size: 3rem;
     font-weight: 700;
     position: relative;
-}
+    overflow: hidden;
+    height: 8rem;
+  }
+  
+  /* Common animation styles */
+  .title-front, .title-back {
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+  
+  /* Animations for label */
+  .label-front {
+    animation-name: labelFrontAnim;
+  }
+  .label-back {
+    animation-name: labelBackAnim;
+  }
+  
+  /* Animations for title */
+  .title-front {
+    animation-name: titleFrontAnim;
+  }
+  .title-back {
+    animation-name: titleBackAnim;
+  }
+  
+  /* Keyframes for label */
+  @keyframes labelFrontAnim {
+    0% { opacity: 0; transform: translateY(10px); }
+    10%, 40% { opacity: 1; transform: translateY(0); }
+    60% { opacity: 0; transform: translateY(-5px); }
+    100% { opacity: 0; }
+  }
+  @keyframes labelBackAnim {
+    0%, 50% { opacity: 0; transform: translateY(10px); }
+    60%, 90% { opacity: 1; transform: translateY(0); }
+    100% { opacity: 0; transform: translateY(-5px); }
+  }
+  
+  /* Keyframes for main title */
+  @keyframes titleFrontAnim {
+    0% { opacity: 0; transform: translateY(20px); }
+    10%, 40% { opacity: 1; transform: translateY(0); }
+    60% { opacity: 0; transform: translateY(-10px); }
+    100% { opacity: 0; }
+  }
+  @keyframes titleBackAnim {
+    0%, 50% { opacity: 0; transform: translateY(20px); }
+    60%, 90% { opacity: 1; transform: translateY(0); }
+    100% { opacity: 0; transform: translateY(-10px); }
+  }
+  
 .content-header img {
     height: 3.4rem;
     position: absolute;
@@ -126,6 +213,8 @@ a {
 @media screen and (max-width: 400px) {
  .content-header {
     font-size: 2rem;
+    height: 8rem;
+    line-height: 1.2;
  }   
 }
 @media screen and (max-width: 400px) {
